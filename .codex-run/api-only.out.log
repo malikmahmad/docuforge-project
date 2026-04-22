@@ -1,0 +1,30 @@
+
+> @workspace/api-server@0.0.0 start C:\Users\mahma\Downloads\docuforge-project\artifacts\api-server
+> node --enable-source-maps ./dist/index.mjs
+
+[15:37:18.948] [32mINFO[39m (12640): [36mServer listening[39m
+    [35mport[39m: 8080
+[15:37:32.291] [32mINFO[39m (12640): [36mrequest errored[39m
+    [35mreq[39m: {
+      "id": 1,
+      "method": "POST",
+      "url": "/api/generate"
+    }
+    [35mres[39m: {
+      "statusCode": 503
+    }
+    [35mresponseTime[39m: 27
+    err: {
+      "type": "Error",
+      "message": "failed with status code 503",
+      "stack":
+          Error: failed with status code 503
+              at onResFinished (C:\Users\mahma\Downloads\docuforge-project\node_modules\.pnpm\pino-http@10.5.0\node_modules\pino-http\logger.js:115:39)
+              at ServerResponse.onResponseComplete (C:\Users\mahma\Downloads\docuforge-project\node_modules\.pnpm\pino-http@10.5.0\node_modules\pino-http\logger.js:178:14)
+              at ServerResponse.emit (node:events:520:35)
+              at onFinish (node:_http_outgoing:1026:10)
+              at callback (node:internal/streams/writable:764:21)
+              at afterWrite (node:internal/streams/writable:708:5)
+              at afterWriteTick (node:internal/streams/writable:694:10)
+              at process.processTicksAndRejections (node:internal/process/task_queues:88:21)
+    }
