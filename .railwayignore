@@ -1,0 +1,12 @@
+# Ignore unnecessary files for Railway deployment
+node_modules/
+.git/
+.vscode/
+.codex-import/
+.codex-run/
+*.log
+.env
+.env.local
+dist/
+artifacts/docuforge/dist/
+artifacts/mockup-sandbox/

@@ -138,7 +138,29 @@ docuforge-project/
 └── pnpm-workspace.yaml      # Workspace config
 ```
 
-## 🔧 Configuration
+## � Deployment
+
+### Deploy to Railway (Recommended)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/malikmahmad/docuforge-project)
+
+**Quick Deploy:**
+1. Click the button above
+2. Connect your GitHub account
+3. Deploy automatically
+4. Get your live URL in 3-5 minutes!
+
+**Manual Deploy:**
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+### Other Platforms
+
+- **Vercel**: Deploy frontend separately
+- **Heroku**: Use Procfile included
+- **Docker**: Dockerfile coming soon
+- **VPS**: Run with `pnpm dev` or `pnpm start`
+
+## �🔧 Configuration
 
 ### Environment Variables
 
