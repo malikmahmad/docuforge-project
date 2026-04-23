@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: docuforge
+    env: node
+    buildCommand: pnpm install && pnpm --filter @workspace/api-server --filter @workspace/docuforge run build
+    startCommand: pnpm --filter @workspace/api-server run start
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: PNPM_VERSION
+        value: 9
